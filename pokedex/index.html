@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800&display=swap" rel="stylesheet">
+    <!-- Hoja de estilos CSS -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <a href="#">
+                <img src="/images/pokedex.png" alt="Logo Pokedex" class="nav-logo">
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <button class="btn-header nav-btn" id="ver-todos">Ver todos</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn normal" id="normal">Normal</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn fire" id="fire">Fire</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn water" id="water">Water</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn grass" id="grass">Grass</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn electric" id="electric">Electric</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn ice" id="ice">Ice</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn fighting" id="fighting">Fighting</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn poison" id="poison">Poison</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn ground" id="ground">Ground</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn flying" id="flying">Flying</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn psychic" id="psychic">Psychic</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn bug" id="bug">Bug</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn rock" id="rock">Rock</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn ghost" id="ghost">Ghost</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn dragon" id="dragon">Dragon</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn steel" id="steel">Steel</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn-header nav-btn fairy" id="fairy">Fairy</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pokemon-todos">
+            <div id="lista-pokemons" class="pokemon-list">
+                <!-- Las tarjetas de los Pokémon se inyectan dinámicamente mediante JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Script de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
